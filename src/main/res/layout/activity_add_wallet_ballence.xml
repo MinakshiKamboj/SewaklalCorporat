@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddWalletBallenceActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar"
+        android:background="@color/colorPrimary"/>
+
+
+<TextView
+    android:id="@+id/tv_select_amnt"
+    android:layout_below="@+id/toolbar"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:textColor="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Select Amount"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_below="@+id/tv_select_amnt"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_descriptin"
+        android:layout_below="@+id/linear"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"/>
+
+    <LinearLayout
+        android:id="@+id/linear_des"
+        android:layout_below="@+id/tv_descriptin"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_background">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="Enter Description..."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/linear_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/dark_blue"
+            android:text="Submit"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/dark_gray"
+            android:text="Reset"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

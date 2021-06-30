@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="18dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/lin_booking_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:text="S.No"/>
+
+                        <TextView
+                            android:id="@+id/tv_booking_id"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text=": 475868697979"
+                            android:textSize="14dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnr_ser_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:text="Person Name"/>
+
+                        <TextView
+                            android:id="@+id/tv_ser_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="   : Mini"
+                            android:textSize="14dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnr_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:text="Landline Number"/>
+                        <TextView
+                            android:id="@+id/tv_location"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/black"
+                            android:text=": 857964897549"
+                            android:textSize="14dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnr_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:text="Mobile"/>
+
+                        <TextView
+                            android:id="@+id/tv_status"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:text=": 6578797697"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnr_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:text="Email"/>
+
+                        <TextView
+                            android:id="@+id/tv_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text=": aa1@gmail.com"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"
+                            android:textSize="14dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:text="Address"/>
+
+                        <TextView
+                            android:id="@+id/tv_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:text=": jhgjugus fy ytiuyoi htuiry fuyru"
+                            android:layout_gravity="center"
+                            android:textSize="14dp"/>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_msg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:text="Created On"/>
+
+                        <TextView
+                            android:id="@+id/tv_msg1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:text=": jhgj ytiuyoi htuiry fuyru"
+                            android:layout_gravity="center"
+                            android:textSize="14dp"/>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_msg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:text="Action"/>
+
+                        <TextView
+                            android:id="@+id/tv_msg2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:text=": jhgjugus "
+                            android:layout_gravity="center"
+                            android:textSize="14dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
